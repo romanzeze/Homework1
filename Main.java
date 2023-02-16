@@ -3,12 +3,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         fistTaskFromPracticalTask();
+        System.out.println("--------------------------------------");
         secondTaskFromPracticalTask();
+        System.out.println("--------------------------------------");
         thirdTaskFromPracticalTask();
+        System.out.println("--------------------------------------");
         fourthTaskFromPracticalTask();
+        System.out.println("--------------------------------------");
         firstTaskFromHomeWork();
+        System.out.println("--------------------------------------");
         secondTaskFromHomeWork();
+        System.out.println("--------------------------------------");
         thirdTaskFromHomeWork();
+
     }
 
     public static void fistTaskFromPracticalTask() {
@@ -31,8 +38,8 @@ public class Main {
         int y = scanner.nextInt();
         System.out.println("input third number");
         int z = scanner.nextInt();
-        double avarage = ((x + y + z) / 3);
-        System.out.println("avarage:" + avarage);
+        double average = ((x + y + z) / 3);
+        System.out.println("average:" + average);
     }
 
     public static void thirdTaskFromPracticalTask() {
@@ -71,12 +78,12 @@ public class Main {
 
     public static void secondTaskFromHomeWork() {
         String name = "Roman";
-        String adress = "Lviv";
+        String adressofcity = "Lviv";
         System.out.println("What is your name? ");
         System.out.println("My name is " + name);
         System.out.println("Where are you live " + name + "?");
         System.out.println("Your name is " + name);
-        System.out.println("Your adress is " + adress);
+        System.out.println("Your address is " + adressofcity);
 
     }
 
